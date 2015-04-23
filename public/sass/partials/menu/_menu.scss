@@ -1,0 +1,33 @@
+$menuBg: #2b2e30;
+$menuLinkColor: #b1b1b1;
+$menuLinkHoverColor: #fff;
+$menuLinkHoverBg: #45494b;
+
+
+.kulisy-menu {
+    width: 100%;
+    height: 50px;
+    background: $menuBg;
+
+    li {
+        float: left;
+        line-height: 50px;
+
+        a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            padding: 0 15px;
+            background: $menuBg;
+            color: $menuLinkColor;
+            font-family: 'Oswald', sans-serif;
+            font-size: 18px;
+            text-transform: uppercase;
+
+            &:hover {
+                color: $menuLinkHoverColor;
+                background: $menuLinkHoverBg;
+            }
+        }
+    }
+}

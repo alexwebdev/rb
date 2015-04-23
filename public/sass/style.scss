@@ -1,1 +1,23 @@
+/**
+ * fonts
+ */
+@import url(fonts/Oswald-Regular.ttf);
+@import url(fonts/OpenSans-Regular.ttf);
+
+/**
+ * reset
+ */
 @import "libs/normalize";
+
+/**
+ * globals
+ */
+@import "globals/layout";
+
+
+/**
+ * partials
+ */
+@import "partials/menu/menu";
+@import "partials/breadcrumbs/breadcrumbs";
+@import "partials/hot-topic/hot-topic";

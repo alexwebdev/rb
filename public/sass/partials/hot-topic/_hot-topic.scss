@@ -1,0 +1,28 @@
+.hot-topic {
+    padding: 0 0 6px;
+    border-bottom: 1px solid #d6d9db;
+
+    .heading {
+        display: inline-block;
+        height: 32px;
+        margin: 0;
+        padding: 0 12px;
+        background: #e63117;
+        color: #fff;
+        font-family: 'Oswald', sans-serif;
+        font-size: 21px;
+        line-height: 32px;
+        text-transform: uppercase;
+        position: relative;
+
+        &:before {
+            content: '';
+            border-left: 10px solid #e63117;
+            border-top: 16px solid transparent;
+            border-bottom: 16px solid transparent;
+            position: absolute;
+            top: 0;
+            right: -10px;
+        }
+    }
+}
