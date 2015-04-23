@@ -1,5 +1,8 @@
 .social-widget {
 
+    /**
+     * vertical
+     */
     &.vertical {
         width: 60px;
 
@@ -18,6 +21,25 @@
                 width: 100%;
                 height: 100%;
             }
+        }
+    }
+
+    /**
+     * horizontal
+     */
+    &.horizontal {
+        width: 100%;
+        height: 55px;
+        background: #e0e0e0;
+
+        .count-box {
+            display: inline-block;
+            padding: 5px 6px 4px;
+            color: #b4b9bd;
+            font-size: 12px;
+            border: 1px solid #b4b9bd;
+            border-top-width: 2px;
+            border-bottom-width: 2px;
         }
     }
 

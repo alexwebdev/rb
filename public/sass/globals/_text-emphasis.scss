@@ -7,5 +7,24 @@
     font-family: 'Oswald', sans-serif;
     font-size: 21px;
     line-height: 32px;
+    text-align: center;
     text-transform: uppercase;
+    position: relative;
+
+    &.small {
+        padding: 3px 25px 2px;
+        font-size: 14px;
+    }
+
+    &.bottom-arrow {
+        &:before {
+            content: '';
+            border-top: 11px solid $kulisyRed;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            position: absolute;
+            right: 30px;
+            bottom: -11px;
+        }
+    }
 }
