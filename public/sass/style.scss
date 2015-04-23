@@ -12,7 +12,10 @@
 /**
  * globals
  */
+@import "globals/variables";
 @import "globals/layout";
+@import "globals/text-emphasis";
+@import "globals/buttons";
 
 
 /**
@@ -21,3 +24,6 @@
 @import "partials/menu/menu";
 @import "partials/breadcrumbs/breadcrumbs";
 @import "partials/hot-topic/hot-topic";
+@import "partials/social-widget/social-widget";
+
+@import "partials/hp/article-featured";

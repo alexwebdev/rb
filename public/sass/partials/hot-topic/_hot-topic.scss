@@ -7,7 +7,7 @@
         height: 32px;
         margin: 0;
         padding: 0 12px;
-        background: #e63117;
+        background: $kulisyRed;
         color: #fff;
         font-family: 'Oswald', sans-serif;
         font-size: 21px;
@@ -17,7 +17,7 @@
 
         &:before {
             content: '';
-            border-left: 10px solid #e63117;
+            border-left: 10px solid $kulisyRed;
             border-top: 16px solid transparent;
             border-bottom: 16px solid transparent;
             position: absolute;

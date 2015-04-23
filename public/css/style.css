@@ -463,6 +463,27 @@ a:hover {
   text-decoration: none;
 }
 
+/* line 1, ../sass/globals/_text-emphasis.scss */
+.text-emphasis-red {
+  display: inline-block;
+  margin: 0;
+  padding: 5px 14px 4px;
+  background: #e63117;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 21px;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+
+/* line 1, ../sass/globals/_buttons.scss */
+.kulisy-btn {
+  display: inline-block;
+}
+
+/**
+ * czerwony background, wyrozniony tekst
+ */
 /**
  * partials
  */
@@ -553,4 +574,100 @@ a:hover {
   position: absolute;
   top: 0;
   right: -10px;
+}
+
+/* line 3, ../sass/partials/social-widget/_social-widget.scss */
+.social-widget.vertical {
+  width: 60px;
+}
+/* line 6, ../sass/partials/social-widget/_social-widget.scss */
+.social-widget.vertical .social-item {
+  width: 100%;
+  height: 60px;
+  background: #f2f2f2;
+  border: 1px solid #d8e2ef;
+}
+/* line 12, ../sass/partials/social-widget/_social-widget.scss */
+.social-widget.vertical .social-item + .social-item {
+  border-top: none;
+}
+/* line 16, ../sass/partials/social-widget/_social-widget.scss */
+.social-widget.vertical .social-item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 4, ../sass/partials/hp/_article-featured.scss */
+.article-featured .img-wrap {
+  position: relative;
+}
+/* line 7, ../sass/partials/hp/_article-featured.scss */
+.article-featured .img-wrap > a {
+  display: block;
+}
+/* line 13, ../sass/partials/hp/_article-featured.scss */
+.article-featured .article-desc {
+  position: absolute;
+  left: 32px;
+  bottom: 15px;
+  z-index: 2;
+}
+/* line 19, ../sass/partials/hp/_article-featured.scss */
+.article-featured .article-desc:before {
+  content: '';
+  display: block;
+  width: 3px;
+  height: 98%;
+  background: #e63117;
+  position: absolute;
+  left: -15px;
+  top: 6px;
+}
+/* line 30, ../sass/partials/hp/_article-featured.scss */
+.article-featured .article-desc .upline {
+  margin: 0 0 10px;
+  color: #c3c3c3;
+  font-size: 18px;
+}
+/* line 36, ../sass/partials/hp/_article-featured.scss */
+.article-featured .article-desc .main-title {
+  margin: 0 0 15px;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  line-height: 46px;
+  text-transform: uppercase;
+}
+/* line 44, ../sass/partials/hp/_article-featured.scss */
+.article-featured .article-desc .main-title a {
+  color: inherit;
+  text-decoration: none;
+}
+/* line 51, ../sass/partials/hp/_article-featured.scss */
+.article-featured .article-desc .author-info .avatar-wrap {
+  float: left;
+}
+/* line 55, ../sass/partials/hp/_article-featured.scss */
+.article-featured .article-desc .author-info .author-name {
+  float: left;
+  margin: 0 0 0 10px;
+  color: #a4a6a7;
+  line-height: 55px;
+  text-style: italic;
+}
+/* line 66, ../sass/partials/hp/_article-featured.scss */
+.article-featured .article-initial-num {
+  width: 80px;
+  height: 80px;
+  background: #e63117;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+/* line 74, ../sass/partials/hp/_article-featured.scss */
+.article-featured .article-initial-num span {
+  font-family: 'Oswald', sans-serif;
+  font-size: 48px;
+  line-height: 80px;
 }
