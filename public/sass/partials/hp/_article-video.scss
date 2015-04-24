@@ -1,0 +1,21 @@
+.article-video {
+    .img-wrap {
+        margin-bottom: 3px;
+    }
+
+    .date {
+        margin-bottom: 11px;
+        font-size: 14px;
+    }
+
+    .main-title {
+        font-size: 18px;
+        line-height: 24px;
+
+        a {
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}

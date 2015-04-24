@@ -21,16 +21,23 @@
 /**
  * partials
  */
+@import "partials/header/header";
 @import "partials/menu/menu";
+@import "partials/menu/top-menu";
 @import "partials/breadcrumbs/breadcrumbs";
 @import "partials/hot-topic/hot-topic";
 @import "partials/social-widget/social-widget";
 
+@import "partials/hp/layout";
 @import "partials/hp/article-featured";
 @import "partials/hp/article-small";
 @import "partials/hp/article-top-read";
 @import "partials/hp/article-top-read-other";
 @import "partials/hp/article-opinion";
+@import "partials/hp/article-video";
 @import "partials/hp/top-read";
 @import "partials/hp/newsletter-box";
 @import "partials/hp/opinions";
+@import "partials/hp/video-tabs";
+
+@import "partials/footer/footer";

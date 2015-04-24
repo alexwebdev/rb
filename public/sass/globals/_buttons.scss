@@ -1,7 +1,24 @@
 .kulisy-btn {
     display: inline-block;
+    position: relative;
 }
 
 /**
- * czerwony background, wyrozniony tekst
+ * slide to top (footer)
  */
+.kulisy-btn-slideup {
+    width: 60px;
+    height: 53px;
+    background: $kulisyRed;
+
+    &:before {
+        content: '';
+        width: 22px;
+        height: 15px;
+        margin: -7px 0 0 -11px;
+        background: url(../images/icons.png) no-repeat -143px 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+}

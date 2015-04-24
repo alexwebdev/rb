@@ -8,11 +8,22 @@
     <link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/libs/jquery-ui.min.js"></script>
     <script src="js/libs/jquery.validate.min.js"></script>
 </head>
 <body>
-    
-    <header class="header">
+
+    <header class="kulisy-header">
+        <hr>
+        <div class="container">
+            <ul class="top-menu">
+                <li class="active"><a href="">Strona główna</a></li>
+                <li><a href="">O nas</a></li>
+                <li><a href="">Kontakt</a></li>
+            </ul>
+        </div>
+
+
         <nav class="kulisy-menu">
             <ul class="container">
                 <li><a href="">Nasze śledztwo</a></li>
@@ -224,7 +235,7 @@
                     </div>
                 </section> <!-- /top-read -->
 
-                <section class="newsletter-box">
+                <section class="newsletter-box hidden-md">
                     <h3 class="heading">Newsletter</h3>
                     <input type="text" class="form-control" placeholder="Twój adres email...">
                     <p class="info">Jesli chcesz otrzymywac newsletter wpisz powyzej swoj email.</p>
@@ -235,9 +246,51 @@
 
         <section class="kulisy-opinions">
             <p class="text-emphasis text-emphasis-red large bottom-arrow arrow-center">Opinie</p>
-            <div class="opinions-wrap">
+            <div class="articles-wrap">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="article-small article-opinion">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <img src="http://placehold.it/500" class="img-responsive">
+                                </div>
+                                <div class="col-xs-9">
+                                    <p class="main-title">
+                                        <a href="">Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis...</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div> <!-- /article-opinion -->
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="article-small article-opinion">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <img src="http://placehold.it/500" class="img-responsive">
+                                </div>
+                                <div class="col-xs-9">
+                                    <p class="main-title">
+                                        <a href="">Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis...</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div> <!-- /article-opinion -->
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="article-small article-opinion">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <img src="http://placehold.it/500" class="img-responsive">
+                                </div>
+                                <div class="col-xs-9">
+                                    <p class="main-title">
+                                        <a href="">Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis...</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div> <!-- /article-opinion -->
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
                         <div class="article-small article-opinion">
                             <div class="row">
                                 <div class="col-xs-3">
@@ -254,7 +307,145 @@
                 </div>
             </div> <!-- /opinions-wrap -->
         </section> <!-- /opinions -->
+
+
+        <section class="kulisy-onblog">
+            <p class="text-emphasis text-emphasis-blue large bottom-arrow arrow-center">Na blogu</p>
+            <div class="articles-wrap">
+                <div class="row">
+                    <!-- pojedynczy artykul -->
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="article-small">
+                            <p class="date pull-left">14 Kwietnia 2015</p>
+                            <p class="text-emphasis text-emphasis-blue small pull-right">Blog</p>
+                            <div class="img-wrap">
+                                <a href="">
+                                    <img src="http://placehold.it/510x270" class="img-responsive">
+                                </a>
+                            </div>
+                            <p class="main-title"><a href="">Komorowski chwali się 25 konkretami.</a></p>
+                            <p class="article-summary">
+                                Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula.
+                            </p>
+                            <div class="social-widget horizontal">
+                                <div class="count-box">4</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- pojedynczy artykul -->
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="article-small">
+                            <p class="date pull-left">14 Kwietnia 2015</p>
+                            <p class="text-emphasis text-emphasis-blue small pull-right">Blog</p>
+                            <div class="img-wrap">
+                                <a href="">
+                                    <img src="http://placehold.it/510x270" class="img-responsive">
+                                </a>
+                            </div>
+                            <p class="main-title"><a href="">Komorowski chwali się 25 konkretami.</a></p>
+                            <p class="article-summary">
+                                Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula.
+                            </p>
+                            <div class="social-widget horizontal">
+                                <div class="count-box">4</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- pojedynczy artykul -->
+                    <div class="col-lg-4 hidden-md">
+                        <div class="article-small">
+                            <p class="date pull-left">14 Kwietnia 2015</p>
+                            <p class="text-emphasis text-emphasis-red small pull-right">Kategoria</p>
+                            <div class="img-wrap">
+                                <a href="">
+                                    <img src="http://placehold.it/510x270" class="img-responsive">
+                                </a>
+                            </div>
+                            <p class="main-title"><a href="">Komorowski chwali się 25 konkretami.</a></p>
+                            <p class="article-summary">
+                                Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula.
+                            </p>
+                            <div class="social-widget horizontal">
+                                <div class="count-box">4</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- /articles-wrap -->
+        </section> <!-- /kulisy-onblog -->
+
+
+        <section>
+            <div id="video-tabs">
+                <ul>
+                    <li><a href="#popular-video-section">Popularne wideo</a></li>
+                    <li><a href="#newest-video-section">Najnowsze wideo</a></li>
+                </ul>
+                <div class="articles-wrap">
+                    <div id="popular-video-section">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-4 col-xs-6">
+                                <div class="article-small article-video">
+                                    <div class="img-wrap">
+                                        <a href="">
+                                            <img src="http://placehold.it/510x270" class="img-responsive">
+                                        </a>
+                                    </div>
+                                    <p class="date">15 Kwietnia 2015</p>
+                                    <p class="main-title">
+                                        <a href="">Lorem ipsum dolor sit amet enim. Etiam ullamcorper.</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6">
+                                <div class="article-small article-video">
+                                    <div class="img-wrap">
+                                        <a href="">
+                                            <img src="http://placehold.it/510x270" class="img-responsive">
+                                        </a>
+                                    </div>
+                                    <p class="date">15 Kwietnia 2015</p>
+                                    <p class="main-title">
+                                        <a href="">Lorem ipsum dolor sit amet enim. Etiam ullamcorper.</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6">
+                                <div class="article-small article-video">
+                                    <div class="img-wrap">
+                                        <a href="">
+                                            <img src="http://placehold.it/510x270" class="img-responsive">
+                                        </a>
+                                    </div>
+                                    <p class="date">15 Kwietnia 2015</p>
+                                    <p class="main-title">
+                                        <a href="">Lorem ipsum dolor sit amet enim. Etiam ullamcorper.</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="newest-video-section">
+
+                    </div>
+                </div> <!-- /articles-wrap -->
+            </div> <!-- /video-tabs -->
+        </section>
     </div> <!-- /container -->
+
+    <hr>
+
+    <div class="container">
+        <footer class="kulisy-footer">
+            <a href="" class="kulisy-btn kulisy-btn-slideup">&nbsp;</a>
+            <a href="" class="footer-logo">Kulisy<strong>24</strong></a>
+            <p class="footer-info">© Wszystkie prawa zastrzeżone Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui,</p>
+        </footer>
+    </div>
 
 
 
@@ -290,6 +481,10 @@
 
         formCtrl.init({
             container: $('#contact-form')
+        });
+
+        $( "#video-tabs" ).tabs({
+          active: 0
         });
 
     </script>

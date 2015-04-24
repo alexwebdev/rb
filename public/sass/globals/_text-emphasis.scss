@@ -48,4 +48,10 @@
 
 .text-emphasis-blue {
     background: $kulisyBlue;
+
+    &.bottom-arrow {
+        &:before {
+            border-top-color: $kulisyBlue;
+        }
+    }
 }

@@ -1,0 +1,44 @@
+#video-tabs {
+    ul {
+        float: left;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+        li {
+            float: left;
+            margin: 0 2px 0 0;
+
+            a {
+                display: block;
+                padding: 13px 37px 11px;
+                background: #8e9295;
+                color: #fff;
+                font-family: 'Oswald', sans-serif;
+                font-size: 24px;
+                text-transform: uppercase;
+                text-decoration: none !important;
+                outline: none !important;
+                position: relative;
+            }
+
+            &.ui-tabs-active {
+                a {
+                    background: $kulisyRed;
+
+                    &:before {
+                        content: '';
+                        margin-left: -5px;
+                        border-top: 11px solid $kulisyRed;
+                        border-left: 10px solid transparent;
+                        border-right: 10px solid transparent;
+                        position: absolute;
+                        left: 50%;
+                        bottom: -11px;
+                        z-index: 2;
+                    }
+                }
+            }
+        }
+    }
+}

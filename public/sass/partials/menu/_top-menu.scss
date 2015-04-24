@@ -1,0 +1,38 @@
+.top-menu {
+    li {
+        float: left;
+        position: relative;
+
+        + li {
+            margin-left: 30px;
+
+            &:before {
+                content: '\2022';
+                display: inline-block;
+                color: #b8b8b8;
+                font-size: 22px;
+                line-height: 49px;
+                position: absolute;
+                left: -19px;
+                top: 0;
+            }
+        }
+
+        a {
+            display: block;
+            padding: 13px 0 11px;
+            color: $kulisyFadedBlack;
+            font-family: 'Oswald', sans-serif;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        &.active {
+            a {
+                padding: 13px 10px 11px;
+                background: $kulisyRed;
+                color: #fff;
+            }
+        }
+    }
+}

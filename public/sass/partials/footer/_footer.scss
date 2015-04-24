@@ -1,0 +1,25 @@
+.kulisy-footer {
+    padding: 0 90px 0 0;
+    position: relative;
+
+    .footer-logo {
+        display: inline-block;
+        color: $kulisyRed;
+        font-family: 'Oswald', sans-serif;
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+
+    .footer-info {
+        display: inline-block;
+        margin-left: 10px;
+        vertical-align: middle;
+        font-size: 14px;
+    }
+
+    .kulisy-btn-slideup {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
