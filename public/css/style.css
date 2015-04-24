@@ -464,11 +464,10 @@ a:hover {
 }
 
 /* line 1, ../sass/globals/_text-emphasis.scss */
-.text-emphasis-red {
+.text-emphasis {
   display: inline-block;
   margin: 0;
   padding: 5px 14px 4px;
-  background: #e63117;
   color: #fff;
   font-family: 'Oswald', sans-serif;
   font-size: 21px;
@@ -477,13 +476,18 @@ a:hover {
   text-transform: uppercase;
   position: relative;
 }
-/* line 14, ../sass/globals/_text-emphasis.scss */
-.text-emphasis-red.small {
+/* line 13, ../sass/globals/_text-emphasis.scss */
+.text-emphasis.small {
   padding: 3px 25px 2px;
   font-size: 14px;
 }
-/* line 20, ../sass/globals/_text-emphasis.scss */
-.text-emphasis-red.bottom-arrow:before {
+/* line 18, ../sass/globals/_text-emphasis.scss */
+.text-emphasis.large {
+  padding: 13px 37px 11px;
+  font-size: 24px;
+}
+/* line 24, ../sass/globals/_text-emphasis.scss */
+.text-emphasis.bottom-arrow:before {
   content: '';
   border-top: 11px solid #e63117;
   border-left: 10px solid transparent;
@@ -491,6 +495,23 @@ a:hover {
   position: absolute;
   right: 30px;
   bottom: -11px;
+  z-index: 2;
+}
+/* line 36, ../sass/globals/_text-emphasis.scss */
+.text-emphasis.bottom-arrow.arrow-center:before {
+  right: auto;
+  left: 50%;
+  margin-left: -5px;
+}
+
+/* line 45, ../sass/globals/_text-emphasis.scss */
+.text-emphasis-red {
+  background: #e63117;
+}
+
+/* line 49, ../sass/globals/_text-emphasis.scss */
+.text-emphasis-blue {
+  background: #44adc4;
 }
 
 /* line 1, ../sass/globals/_buttons.scss */
@@ -757,7 +778,125 @@ a:hover {
   color: #303030;
 }
 
+/* line 2, ../sass/partials/hp/_article-top-read.scss */
+.article-top-read .img-wrap {
+  margin-bottom: 8px;
+}
+/* line 6, ../sass/partials/hp/_article-top-read.scss */
+.article-top-read .date {
+  font-size: 14px;
+}
+/* line 10, ../sass/partials/hp/_article-top-read.scss */
+.article-top-read .main-title {
+  font-size: 18px;
+  line-height: 24px;
+}
+/* line 15, ../sass/partials/hp/_article-top-read.scss */
+.article-top-read .views {
+  padding-left: 50px;
+  color: #a4a6a7;
+  font-size: 16px;
+  line-height: 32px;
+  position: relative;
+}
+/* line 22, ../sass/partials/hp/_article-top-read.scss */
+.article-top-read .views:before {
+  content: '';
+  display: inline-block;
+  width: 42px;
+  height: 32px;
+  background: url(../images/icons.png) no-repeat 0 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* line 1, ../sass/partials/hp/_article-top-read-other.scss */
+.article-top-read-other {
+  margin: 0 0 15px;
+}
+/* line 4, ../sass/partials/hp/_article-top-read-other.scss */
+.article-top-read-other:last-child {
+  margin-bottom: 40px;
+}
+/* line 14, ../sass/partials/hp/_article-top-read-other.scss */
+.article-top-read-other .content-wrap {
+  margin-left: -10px;
+}
+/* line 16, ../sass/partials/hp/_article-top-read-other.scss */
+.article-top-read-other .content-wrap .date {
+  margin-bottom: 10px;
+  font-size: 14px;
+  top: 0;
+}
+/* line 22, ../sass/partials/hp/_article-top-read-other.scss */
+.article-top-read-other .content-wrap .main-title {
+  font-size: 18px;
+  line-height: 24px;
+}
+/* line 27, ../sass/partials/hp/_article-top-read-other.scss */
+.article-top-read-other .content-wrap .main-title a:hover {
+  text-decoration: none;
+}
+
+/* line 2, ../sass/partials/hp/_article-opinion.scss */
+.article-opinion .main-title {
+  margin-left: -10px;
+  padding-top: 20px;
+  font-size: 18px;
+  line-height: 24px;
+  position: relative;
+}
+/* line 9, ../sass/partials/hp/_article-opinion.scss */
+.article-opinion .main-title:before {
+  content: '';
+  display: block;
+  width: 70px;
+  height: 45px;
+  background: url(../images/icons.png) no-repeat 0 -34px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 21, ../sass/partials/hp/_article-opinion.scss */
+.article-opinion .main-title a:hover {
+  text-decoration: none;
+}
+
 /* line 2, ../sass/partials/hp/_top-read.scss */
 .top-read .text-emphasis-red {
   width: 100%;
+  margin-bottom: 30px;
+  padding: 14px 14px 13px;
+}
+
+/* line 1, ../sass/partials/hp/_newsletter-box.scss */
+.newsletter-box {
+  padding: 30px 0 0;
+  border-top: 1px solid #d5d8da;
+}
+/* line 5, ../sass/partials/hp/_newsletter-box.scss */
+.newsletter-box .heading {
+  margin: 0 0 20px;
+  color: #e63117;
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 14, ../sass/partials/hp/_newsletter-box.scss */
+.newsletter-box input[type="text"], .newsletter-box input[type="email"] {
+  margin: 0 0 15px;
+}
+/* line 18, ../sass/partials/hp/_newsletter-box.scss */
+.newsletter-box .info {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* line 2, ../sass/partials/hp/_opinions.scss */
+.kulisy-opinions .opinions-wrap {
+  margin-top: -1px;
+  border-top: 1px solid #d5d8da;
+  padding: 30px 0 0;
 }

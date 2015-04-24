@@ -1,0 +1,22 @@
+.newsletter-box {
+    padding: 30px 0 0;
+    border-top: 1px solid #d5d8da;
+
+    .heading {
+        margin: 0 0 20px;
+        color: $kulisyRed;
+        font-family: 'Oswald', sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    input[type="text"], input[type="email"] {
+        margin: 0 0 15px;
+    }
+
+    .info {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

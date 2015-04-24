@@ -1,0 +1,33 @@
+.article-top-read-other {
+    margin: 0 0 15px;
+
+    &:last-child {
+        margin-bottom: 40px;
+    }
+
+    .avatar-wrap {
+        + .content-wrap {
+            // margin-left: 10px;
+        }
+    }
+
+    .content-wrap {
+        margin-left: -10px;
+        .date {
+            margin-bottom: 10px;
+            font-size: 14px;
+            top: 0;
+        }
+
+        .main-title {
+            font-size: 18px;
+            line-height: 24px;
+
+            a {
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

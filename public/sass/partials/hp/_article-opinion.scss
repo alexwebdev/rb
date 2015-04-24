@@ -1,0 +1,26 @@
+.article-opinion {
+    .main-title {
+        margin-left: -10px;
+        padding-top: 20px;
+        font-size: 18px;
+        line-height: 24px;
+        position: relative;
+
+        &:before {
+            content: '';
+            display: block;
+            width: 70px;
+            height: 45px;
+            background: url(../images/icons.png) no-repeat 0 -34px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        a {
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}

@@ -1,8 +1,7 @@
-.text-emphasis-red {
+.text-emphasis {
     display: inline-block;
     margin: 0;
     padding: 5px 14px 4px;
-    background: $kulisyRed;
     color: #fff;
     font-family: 'Oswald', sans-serif;
     font-size: 21px;
@@ -16,6 +15,11 @@
         font-size: 14px;
     }
 
+    &.large {
+        padding: 13px 37px 11px;
+        font-size: 24px;
+    }
+
     &.bottom-arrow {
         &:before {
             content: '';
@@ -25,6 +29,23 @@
             position: absolute;
             right: 30px;
             bottom: -11px;
+            z-index: 2;
+        }
+
+        &.arrow-center {
+            &:before {
+                right: auto;
+                left: 50%;
+                margin-left: -5px;
+            }
         }
     }
+}
+
+.text-emphasis-red {
+    background: $kulisyRed;
+}
+
+.text-emphasis-blue {
+    background: $kulisyBlue;
 }
