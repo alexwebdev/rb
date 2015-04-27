@@ -4,6 +4,22 @@
 }
 
 /**
+ * standardowy guzik
+ */
+.kulisy-btn-red {
+    padding: 5px 45px 5px;
+    background: $kulisyRed;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+
+    &:hover {
+        color: #fff;
+    }
+}
+
+/**
  * slide to top (footer)
  */
 .kulisy-btn-slideup {
@@ -21,4 +37,37 @@
         top: 50%;
         left: 50%;
     }
+}
+
+// facebook
+.kulisy-btn-fb {
+    width: 12px;
+    height: 22px;
+    background: url(../images/icons.png) no-repeat 0 -84px;
+}
+
+// twitter
+.kulisy-btn-twitter {
+    width: 24px;
+    height: 20px;
+    background: url(../images/icons.png) no-repeat -18px -84px;
+}
+
+// youtube
+.kulisy-btn-youtube {
+    width: 20px;
+    height: 24px;
+    background: url(../images/icons.png) no-repeat -46px -84px;
+}
+
+.kulisy-btn-search {
+    width: 23px;
+    height: 23px;
+    background: url(../images/icons.png) no-repeat -71px -84px;
+}
+
+.kulisy-btn-menu {
+    width: 34px;
+    height: 28px;
+    background: url(../images/icons.png) no-repeat -160px -32px;
 }

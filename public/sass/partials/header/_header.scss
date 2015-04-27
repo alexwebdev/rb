@@ -1,3 +1,29 @@
 .kulisy-header {
     border-top: 4px solid $kulisyRed;
+
+    .header-top {
+        padding-top: 20px;
+        padding-bottom: 15px;
+        position: relative;
+
+        .social-panel {
+            margin-top: -20px;
+        }
+
+        .search-wrap {
+            position: absolute;
+            right: 15px;
+            bottom: 10px;
+        }
+    }
+
+    .header-middle {
+        height: 55px;
+        overflow: hidden;
+
+        .social-panel {
+            height: 49px;
+            line-height: 49px;
+        }
+    }
 }
