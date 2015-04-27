@@ -1,0 +1,17 @@
+.article-important {
+	.img-wrap {
+		border-left: 3px solid $kulisyRed;
+		position: relative;
+
+		.main-title {
+			margin: 0;
+			color: #fff;
+			position: absolute;
+			left: 10px;
+			bottom: 10px;
+			font-family: 'Oswald', sans-serif;
+			font-size: 30px;
+			text-transform: uppercase;
+		}
+	}
+}

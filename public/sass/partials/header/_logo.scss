@@ -1,0 +1,26 @@
+.logo-wrap {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	color: $kulisyRed;
+	text-transform: uppercase;
+
+	.logo {
+		color: inherit !important;
+		font-size: 80px;
+		line-height: 80px;
+	}
+
+	.sub-logo {
+		color: #7a7a7a;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16px;
+		font-style: italic;
+		font-weight: 300;
+		text-transform: none;
+	}
+
+	.logo-small {
+		color: inherit !important;
+		font-size: 40px;
+	}
+}

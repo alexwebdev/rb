@@ -558,6 +558,56 @@ hr {
   border-top: 4px solid #e63117;
 }
 
+/* line 1, ../sass/partials/header/_logo.scss */
+.logo-wrap {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  color: #e63117;
+  text-transform: uppercase;
+}
+/* line 7, ../sass/partials/header/_logo.scss */
+.logo-wrap .logo {
+  color: inherit !important;
+  font-size: 80px;
+  line-height: 80px;
+}
+/* line 13, ../sass/partials/header/_logo.scss */
+.logo-wrap .sub-logo {
+  color: #7a7a7a;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+  text-transform: none;
+}
+/* line 22, ../sass/partials/header/_logo.scss */
+.logo-wrap .logo-small {
+  color: inherit !important;
+  font-size: 40px;
+}
+
+/* line 1, ../sass/partials/header/_important-box.scss */
+.important-box {
+  position: relative;
+}
+/* line 4, ../sass/partials/header/_important-box.scss */
+.important-box:before {
+  content: '';
+  width: 0;
+  background: #fff url(../images/icons.png) no-repeat;
+}
+/* line 10, ../sass/partials/header/_important-box.scss */
+.important-box .important-sign {
+  width: 40px;
+  height: 48px;
+  background: #e63117;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  text-align: center;
+}
+
 /* line 7, ../sass/partials/menu/_menu.scss */
 .kulisy-menu {
   width: 100%;
@@ -741,20 +791,21 @@ hr {
 
 /* line 4, ../sass/partials/hp/_article-featured.scss */
 .article-featured .img-wrap {
+  width: 93%;
   position: relative;
 }
-/* line 7, ../sass/partials/hp/_article-featured.scss */
+/* line 8, ../sass/partials/hp/_article-featured.scss */
 .article-featured .img-wrap > a {
   display: block;
 }
-/* line 13, ../sass/partials/hp/_article-featured.scss */
+/* line 14, ../sass/partials/hp/_article-featured.scss */
 .article-featured .article-desc {
   position: absolute;
   left: 32px;
   bottom: 15px;
   z-index: 2;
 }
-/* line 19, ../sass/partials/hp/_article-featured.scss */
+/* line 20, ../sass/partials/hp/_article-featured.scss */
 .article-featured .article-desc:before {
   content: '';
   display: block;
@@ -765,13 +816,13 @@ hr {
   left: -15px;
   top: 6px;
 }
-/* line 30, ../sass/partials/hp/_article-featured.scss */
+/* line 31, ../sass/partials/hp/_article-featured.scss */
 .article-featured .article-desc .upline {
   margin: 0 0 10px;
   color: #c3c3c3;
   font-size: 18px;
 }
-/* line 36, ../sass/partials/hp/_article-featured.scss */
+/* line 37, ../sass/partials/hp/_article-featured.scss */
 .article-featured .article-desc .main-title {
   margin: 0 0 15px;
   color: #fff;
@@ -780,16 +831,16 @@ hr {
   line-height: 46px;
   text-transform: uppercase;
 }
-/* line 44, ../sass/partials/hp/_article-featured.scss */
+/* line 45, ../sass/partials/hp/_article-featured.scss */
 .article-featured .article-desc .main-title a {
   color: inherit;
   text-decoration: none;
 }
-/* line 51, ../sass/partials/hp/_article-featured.scss */
+/* line 52, ../sass/partials/hp/_article-featured.scss */
 .article-featured .article-desc .author-info .avatar-wrap {
   float: left;
 }
-/* line 55, ../sass/partials/hp/_article-featured.scss */
+/* line 56, ../sass/partials/hp/_article-featured.scss */
 .article-featured .article-desc .author-info .author-name {
   float: left;
   margin: 0 0 0 10px;
@@ -797,16 +848,16 @@ hr {
   line-height: 55px;
   text-style: italic;
 }
-/* line 66, ../sass/partials/hp/_article-featured.scss */
+/* line 67, ../sass/partials/hp/_article-featured.scss */
 .article-featured .article-initial-num {
-  width: 80px;
+  width: 7%;
   height: 80px;
   background: #e63117;
   color: #fff;
   text-align: center;
   overflow: hidden;
 }
-/* line 74, ../sass/partials/hp/_article-featured.scss */
+/* line 75, ../sass/partials/hp/_article-featured.scss */
 .article-featured .article-initial-num span {
   font-family: 'Oswald', sans-serif;
   font-size: 48px;
@@ -958,6 +1009,23 @@ hr {
 /* line 16, ../sass/partials/hp/_article-video.scss */
 .article-video .main-title a:hover {
   text-decoration: none;
+}
+
+/* line 2, ../sass/partials/hp/_article-important.scss */
+.article-important .img-wrap {
+  border-left: 3px solid #e63117;
+  position: relative;
+}
+/* line 6, ../sass/partials/hp/_article-important.scss */
+.article-important .img-wrap .main-title {
+  margin: 0;
+  color: #fff;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
 }
 
 /* line 2, ../sass/partials/hp/_top-read.scss */

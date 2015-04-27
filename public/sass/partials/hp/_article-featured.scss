@@ -2,6 +2,7 @@
 
     // kontener obrazka
     .img-wrap {
+        width: 93%;
         position: relative;
 
         > a {
@@ -64,7 +65,7 @@
 
     // box z numerem artykulu
     .article-initial-num {
-        width: 80px;
+        width: 7%;
         height: 80px;
         background: $kulisyRed;
         color: #fff;

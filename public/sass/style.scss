@@ -22,6 +22,9 @@
  * partials
  */
 @import "partials/header/header";
+@import "partials/header/logo";
+@import "partials/header/important-box";
+
 @import "partials/menu/menu";
 @import "partials/menu/top-menu";
 @import "partials/breadcrumbs/breadcrumbs";
@@ -35,6 +38,7 @@
 @import "partials/hp/article-top-read-other";
 @import "partials/hp/article-opinion";
 @import "partials/hp/article-video";
+@import "partials/hp/article-important";
 @import "partials/hp/top-read";
 @import "partials/hp/newsletter-box";
 @import "partials/hp/opinions";

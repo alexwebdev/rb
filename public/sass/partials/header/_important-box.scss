@@ -1,0 +1,20 @@
+.important-box {
+	position: relative;
+
+	&:before {
+		content: '';
+		width: 0;
+		background: #fff url(../images/icons.png) no-repeat;
+	}
+
+	.important-sign {
+		width: 40px;
+		height: 48px;
+		background: $kulisyRed;
+		color: #fff;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 32px;
+		font-style: normal;
+		text-align: center;
+	}
+}

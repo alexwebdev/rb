@@ -5,6 +5,8 @@
     <title>Document</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -14,27 +16,86 @@
 <body>
 
     <header class="kulisy-header">
-        <hr>
         <div class="container">
-            <ul class="top-menu">
-                <li class="active"><a href="">Strona główna</a></li>
-                <li><a href="">O nas</a></li>
-                <li><a href="">Kontakt</a></li>
-            </ul>
+            <div class="row hidden-md hidden-sm hidden-xs">
+                <div class="col-lg-4">
+                    <div class="logo-wrap">
+                        <a href="" class="logo"><strong>Kulisy</strong>24</a>
+                        <p class="sub-logo">Dziennikarstwo w interesie publicznym</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="important-box">
+                        <div class="article-important">
+                            <em class="important-sign pull-left">!</em>
+                            <div class="img-wrap pull-left">
+                                <a href="">
+                                    <img src="http://placehold.it/222x125">
+                                    <h3 class="main-title">Nie przegap !</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="social pull-right">
+                        <a href="" class="kulisy-btn kulisy-btn-facebook">f</a>
+                        <a href="" class="kulisy-btn kulisy-btn-twitter">tw</a>
+                        <a href="" class="kulisy-btn kulisy-btn-youtube">yt</a>
+                        <a href="" class="kulisy-btn kulisy-btn-red">Donate</a>
+                    </div>
+                    <div class="search">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
         </div>
 
 
+        <hr>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-3 col-sm-6 col-xs-6">
+                    <div class="logo-wrap pull-left">
+                        <a href="" class="logo-small"><strong>Kulisy</strong>24</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-6 col-sm-0 col-xs-0 hidden-sm hidden-xs">
+                    <ul class="top-menu">
+                        <li class="active"><a href="">Strona główna</a></li>
+                        <li><a href="">O nas</a></li>
+                        <li><a href="">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="pull-right">
+                        <a href="" class="kulisy-btn kulisy-btn-facebook">f</a>
+                        <a href="" class="kulisy-btn kulisy-btn-twitter">tw</a>
+                        <a href="" class="kulisy-btn kulisy-btn-youtube">yt</a>
+                    </div>
+                </div>
+            </div> <!-- /row -->
+        </div>
+
         <nav class="kulisy-menu">
-            <ul class="container">
-                <li><a href="">Nasze śledztwo</a></li>
-                <li><a href="">Prawo</a></li>
-                <li><a href="">Polityka</a></li>
-                <li><a href="">Gospodarka</a></li>
-                <li><a href="">Społeczeństwo</a></li>
-                <li><a href="">Opinie</a></li>
-                <li><a href="">Świat</a></li>
-                <li><a href="">Wideo</a></li>
-            </ul>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 hidden-md hidden-sm hidden-xs">
+                        <ul>
+                            <li><a href="">Nasze śledztwo</a></li>
+                            <li><a href="">Prawo</a></li>
+                            <li><a href="">Polityka</a></li>
+                            <li><a href="">Gospodarka</a></li>
+                            <li><a href="">Społeczeństwo</a></li>
+                            <li><a href="">Opinie</a></li>
+                            <li><a href="">Świat</a></li>
+                            <li><a href="">Wideo</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div> <!-- /container -->
         </nav>
     </header>
 
@@ -59,50 +120,47 @@
 
         <section class="article-featured">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 col-md-12">
                     <p class="text-emphasis text-emphasis-red pull-right">Prawo i polityka</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="article-initial-num pull-left">
-                        <span>01</span>
-                    </div>
 
-                    <div class="social-widget vertical">
-                        <div class="social-item">
-                            <a href="">F</a>
-                        </div>
-                        <div class="social-item">
-                            <a href="">F</a>
-                        </div>
-                        <div class="social-item">
-                            <a href="">F</a>
-                        </div>
-                        <div class="social-item">
-                            <a href="">F</a>
-                        </div>
-                    </div>
-
-                    <div class="img-wrap pull-left">
-                        <a href="">
-                            <img src="http://placehold.it/970x545/000" class="img-responsive">
-
-                            <div class="article-desc">
-                                <p class="upline">Lorem ipsum dolor sit amet enim. Etiam ullamcorper.</p>
-                                <h3 class="main-title">
-                                    Komorowski chwali się 25 konkretami, ale to sukcesy rządu lub projekty. Cóż - taka jest rola Prezydenta w Polsce
-                                </h3>
-                                <div class="author-info">
-                                    <div class="avatar-wrap">
-                                        <img src="http://placehold.it/55x55">
-                                    </div>
-                                    <p class="author-name">Sylwester Latkowski</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+            <div class="article-initial-num pull-left">
+                <span>01</span>
+            </div>
+            <div class="social-widget vertical" style="display:none">
+                <div class="social-item">
+                    <a href="">F</a>
                 </div>
+                <div class="social-item">
+                    <a href="">F</a>
+                </div>
+                <div class="social-item">
+                    <a href="">F</a>
+                </div>
+                <div class="social-item">
+                    <a href="">F</a>
+                </div>
+            </div>
+
+
+            <div class="img-wrap pull-left">
+                <a href="">
+                    <img src="http://placehold.it/970x545/000" class="img-responsive">
+
+                    <div class="article-desc">
+                        <p class="upline">Lorem ipsum dolor sit amet enim. Etiam ullamcorper.</p>
+                        <h3 class="main-title">
+                            Komorowski chwali się 25 konkretami, ale to sukcesy rządu lub projekty. Cóż - taka jest rola Prezydenta w Polsce
+                        </h3>
+                        <div class="author-info">
+                            <div class="avatar-wrap">
+                                <img src="http://placehold.it/55x55">
+                            </div>
+                            <p class="author-name">Sylwester Latkowski</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </section> <!-- /article-featured -->
     </div> <!-- /container -->

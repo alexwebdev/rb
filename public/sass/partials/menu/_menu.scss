@@ -9,6 +9,10 @@ $menuLinkHoverBg: #45494b;
     height: 50px;
     background: $menuBg;
 
+    > ul {
+        float: left;
+    }
+
     li {
         float: left;
         line-height: 50px;
